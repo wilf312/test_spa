@@ -19,8 +19,8 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
+  history: createWebHistory('/hoge/'),
+  routes,
 });
 
 export default router;
